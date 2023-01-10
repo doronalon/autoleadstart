@@ -1,5 +1,5 @@
-// const alphabet: string[] = "abcdefghijklmnopqrstuvwxyz".split("");
-const hebrew: string [] = "ABGDHVZJTYKLMNSIPXQRWUCEFO".toLocaleLowerCase().split("")
+// const alphabet: string[] = "0.123456789abcdefghijklmnopqrstuvwxyz".split("");
+const hebrew: string [] = "0123456789ABGDHVZJTYKLMNSIPXQRWUCEFO_".toLocaleLowerCase().split("")
 
 const compare = (a: string, b: string, order: string[] = hebrew): number => {
 
